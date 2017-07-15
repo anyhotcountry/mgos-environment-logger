@@ -1,0 +1,14 @@
+{
+  "wifi": {
+    "sta": {
+      "enable": true,
+      "pass": "WIFI PASS",
+      "ssid": "WIFI SID"
+    }
+  },
+  "mqtt": {
+    "pub": "channels/channel/publish/APIKEY",
+    "server": "mqtt.thingspeak.com:8883",
+    "ssl_ca_cert": "digicert.cer"
+  }
+}
